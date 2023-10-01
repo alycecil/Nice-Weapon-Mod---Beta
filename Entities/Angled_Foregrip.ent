@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity path="" name="Angled_Foregrip">
+	<state id="LOD1">
+		<mesh_ref ref="Angled_Foregrip_LOD1"/>
+	</state>
+	<state id="idle">
+		<mesh_ref ref="Angled_Foregrip"/>
+	</state>
+	<mesh_description id="Angled_Foregrip">
+		<lod idx="0" distance="0">
+			<mesh file="Meshes/Angled_Foregrip_Angled_Foregrip.m.hgm"/>
+			<material file="Materials/Angled_Foregrip_Angled_Foregrip.mtl"/>
+			<bsphere value="33.846,0.000,22.932,11.776"/>
+			<box min="23.163,-1.953,18.196" max="44.529,1.953,27.669"/>
+			<src file="C:/Users/kosta/AppData/Roaming/Jagged Alliance 3/ModAssets/FBX/Angled_Foregrip.fbx"/>
+		</lod>
+	</mesh_description>
+	<mesh_description id="Angled_Foregrip_LOD1">
+		<lod idx="0" distance="0">
+			<mesh file="Meshes/Angled_Foregrip_Angled_Foregrip_LOD1.m.hgm"/>
+			<material file="Materials/Angled_Foregrip_Angled_Foregrip_LOD1.mtl"/>
+			<bsphere value="33.846,0.000,22.932,11.776"/>
+			<box min="23.163,-1.953,18.196" max="44.529,1.953,27.669"/>
+			<src file="C:/Users/kosta/AppData/Roaming/Jagged Alliance 3/ModAssets/FBX/Angled_Foregrip.fbx"/>
+		</lod>
+	</mesh_description>
+</entity>

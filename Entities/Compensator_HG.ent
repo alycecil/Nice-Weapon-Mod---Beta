@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity path="" name="Compensator_HG">
+	<state id="LOD1">
+		<mesh_ref ref="Compensator_HG_LOD1"/>
+	</state>
+	<state id="idle">
+		<mesh_ref ref="Compensator_HG"/>
+	</state>
+	<mesh_description id="Compensator_HG">
+		<lod idx="0" distance="0">
+			<mesh file="Meshes/Compensator_HG_Compensator_HG.m.hgm"/>
+			<material file="Materials/Compensator_HG_Compensator_HG.mtl"/>
+			<bsphere value="1.340,0.000,0.000,1.766"/>
+			<box min="-0.224,-0.820,-0.820" max="2.903,0.820,0.820"/>
+			<src file="C:/Users/kosta/AppData/Roaming/Jagged Alliance 3/ModAssets/FBX/HG_Compensator.fbx"/>
+		</lod>
+	</mesh_description>
+	<mesh_description id="Compensator_HG_LOD1">
+		<lod idx="0" distance="0">
+			<mesh file="Meshes/Compensator_HG_Compensator_HG_LOD1.m.hgm"/>
+			<material file="Materials/Compensator_HG_Compensator_HG_LOD1.mtl"/>
+			<bsphere value="1.322,0.000,0.000,1.766"/>
+			<box min="-0.241,-0.820,-0.820" max="2.886,0.820,0.820"/>
+			<src file="C:/Users/kosta/AppData/Roaming/Jagged Alliance 3/ModAssets/FBX/HG_Compensator.fbx"/>
+		</lod>
+	</mesh_description>
+</entity>

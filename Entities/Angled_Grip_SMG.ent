@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity path="" name="Angled_Grip_SMG">
+	<state id="LOD1">
+		<mesh_ref ref="Angled_Grip_SMG_LOD1"/>
+	</state>
+	<state id="idle">
+		<mesh_ref ref="Angled_Grip_SMG"/>
+	</state>
+	<mesh_description id="Angled_Grip_SMG">
+		<lod idx="0" distance="0">
+			<mesh file="Meshes/Angled_Grip_SMG_Angled_Grip_SMG.m.hgm"/>
+			<material file="Materials/Angled_Grip_SMG_Angled_Grip_SMG.mtl"/>
+			<bsphere value="0.042,-0.034,2.417,7.244"/>
+			<box min="-6.434,-1.655,-0.631" max="6.518,1.587,5.465"/>
+			<src file="C:/Users/kosta/AppData/Roaming/Jagged Alliance 3/ModAssets/FBX/Angled_ForegripSMG.fbx"/>
+		</lod>
+		<attach name="Hand_l_grip" spot_pos="0.958,0.000,0.872" spot_rot="1.000000,0.000000,-0.000000,180.0000"/>
+	</mesh_description>
+	<mesh_description id="Angled_Grip_SMG_LOD1">
+		<lod idx="0" distance="0">
+			<mesh file="Meshes/Angled_Grip_SMG_Angled_Grip_SMG_LOD1.m.hgm"/>
+			<material file="Materials/Angled_Grip_SMG_Angled_Grip_SMG_LOD1.mtl"/>
+			<bsphere value="0.042,-0.034,2.417,7.244"/>
+			<box min="-6.434,-1.655,-0.631" max="6.518,1.587,5.465"/>
+			<src file="C:/Users/kosta/AppData/Roaming/Jagged Alliance 3/ModAssets/FBX/Angled_ForegripSMG.fbx"/>
+		</lod>
+		<attach name="Hand_l_grip" spot_pos="0.958,0.000,0.872" spot_rot="1.000000,0.000000,-0.000000,180.0000"/>
+	</mesh_description>
+</entity>

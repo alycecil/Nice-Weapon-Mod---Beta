@@ -1,0 +1,127 @@
+UndefineClass('G36')
+DefineClass.G36 = {
+	__parents = { "AssaultRifle" },
+	__generated_by_class = "ModItemInventoryItemCompositeDef",
+
+
+	object_class = "AssaultRifle",
+	Reliability = 90,
+	ScrapParts = 10,
+	Icon = "UI/Icons/Weapons/G36",
+	DisplayName = T(138421141069, --[[ModItemInventoryItemCompositeDef G36 DisplayName]] "G36"),
+	DisplayNamePlural = T(615034729475, --[[ModItemInventoryItemCompositeDef G36 DisplayNamePlural]] "G36s"),
+	Description = T(635365814681, --[[ModItemInventoryItemCompositeDef G36 Description]] "Futuristic assault rifle with an integrated dual combat sighting system. The 5.56 NATO cartridge combined with the short-stroke gas piston system make this a joy to shoot."),
+	AdditionalHint = T(713149044084, --[[ModItemInventoryItemCompositeDef G36 AdditionalHint]] "<image UI/Conversation/T_Dialogue_IconBackgroundCircle.tga 400 130 128 120> Longer range\n<image UI/Conversation/T_Dialogue_IconBackgroundCircle.tga 400 130 128 120> Increased bonus from Aiming\n<image UI/Conversation/T_Dialogue_IconBackgroundCircle.tga 400 130 128 120> Low attack costs"),
+	LargeItem = true,
+	UnitStat = "Marksmanship",
+	is_valuable = true,
+	Cost = 4000,
+	Caliber = "556",
+	Damage = 22,
+	AimAccuracy = 6,
+	MagazineSize = 30,
+	PenetrationClass = 2,
+	WeaponRange = 30,
+	PointBlankRange = true,
+	OverwatchAngle = 1440,
+	HandSlot = "TwoHanded",
+	Entity = "Weapon_HKG36",
+	fxClass = "G36",
+	ComponentSlots = {
+		PlaceObj('WeaponComponentSlot', {
+			'SlotType', "Barrel",
+			'AvailableComponents', {
+				"BarrelNormal",
+				"BarrelNormalImproved",
+				"BarrelLong",
+				"BarrelLongImproved",
+				"BarrelHeavy",
+			},
+			'DefaultComponent', "BarrelNormal",
+		}),
+		PlaceObj('WeaponComponentSlot', {
+			'SlotType', "Scope",
+			'AvailableComponents', {
+				"ScopeCOG",
+				"ScopeCOGQuick",
+				"LROptics",
+				"ThermalScope",
+				"ReflexSightAdvanced",
+				"ReflexSight",
+				"Magnifier+ReflexSight",
+				"DefaultIronsight_G36",
+			},
+			'DefaultComponent', "ScopeCOG",
+		}),
+		PlaceObj('WeaponComponentSlot', {
+			'SlotType', "Muzzle",
+			'AvailableComponents', {
+				"Compensator",
+				"Suppressor",
+				"Suppressor_Anaconda",
+				"ImprovisedSuppressor",
+			},
+			'DefaultComponent', "Compensator",
+		}),
+		PlaceObj('WeaponComponentSlot', {
+			'SlotType', "Magazine",
+			'AvailableComponents', {
+				"MagNormal",
+				"MagNormalFine",
+				"CMag",
+				"MagQuick",
+			},
+			'DefaultComponent', "MagNormal",
+		}),
+		PlaceObj('WeaponComponentSlot', {
+			'SlotType', "Under",
+			'CanBeEmpty', true,
+			'AvailableComponents', {
+				"TacGrip",
+				"VerticalGrip",
+				"Angled_Grip",
+				"GrenadeLauncher",
+			},
+		}),
+		PlaceObj('WeaponComponentSlot', {
+			'SlotType', "Side",
+			'CanBeEmpty', true,
+			'AvailableComponents', {
+				"Flashlight",
+				"FlashlightDot",
+				"LaserDot",
+				"UVDot",
+			},
+		}),
+		PlaceObj('WeaponComponentSlot', {
+			'SlotType', "Stock",
+			'AvailableComponents', {
+				"StockNormal",
+				"StockFolded",
+				"StockHeavy",
+			},
+			'DefaultComponent', "StockNormal",
+		}),
+		PlaceObj('WeaponComponentSlot', {
+			'SlotType', "Trigger",
+			'AvailableComponents', {
+				"DefaultTrigger",
+				"HairTrigger",
+				"HeavyDutyTrigger",
+				"LightweightTrigger",
+			},
+			'DefaultComponent', "DefaultTrigger",
+		}),
+	},
+	Color = "Black",
+	HolsterSlot = "Shoulder",
+	AvailableAttacks = {
+		"BurstFire",
+		"AutoFire",
+		"SingleShot",
+		"CancelShot",
+	},
+	ShootAP = 5000,
+	ReloadAP = 3000,
+}
+

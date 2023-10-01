@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity path="" name="AR15_Mag_20">
+	<state id="LOD1">
+		<mesh_ref ref="AR15_Mag_20_LOD1"/>
+	</state>
+	<state id="idle">
+		<mesh_ref ref="AR15_Mag_20"/>
+	</state>
+	<mesh_description id="AR15_Mag_20">
+		<lod idx="0" distance="0">
+			<mesh file="Meshes/AR15_Mag_20_AR15_Mag_20.m.hgm"/>
+			<material file="Materials/AR15_Mag_20_AR15_Mag_20.mtl"/>
+			<bsphere value="0.715,-0.030,1.909,7.396"/>
+			<box min="-2.743,-1.069,-4.763" max="4.174,1.009,8.581"/>
+			<src file="C:/Users/kosta/AppData/Roaming/Jagged Alliance 3/ModAssets/FBX/MagArSmall.fbx"/>
+		</lod>
+	</mesh_description>
+	<mesh_description id="AR15_Mag_20_LOD1">
+		<lod idx="0" distance="0">
+			<mesh file="Meshes/AR15_Mag_20_AR15_Mag_20_LOD1.m.hgm"/>
+			<material file="Materials/AR15_Mag_20_AR15_Mag_20_LOD1.mtl"/>
+			<bsphere value="0.715,-0.030,1.909,7.396"/>
+			<box min="-2.743,-1.068,-4.763" max="4.174,1.009,8.581"/>
+			<src file="C:/Users/kosta/AppData/Roaming/Jagged Alliance 3/ModAssets/FBX/MagArSmall.fbx"/>
+		</lod>
+	</mesh_description>
+</entity>

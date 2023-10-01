@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity path="" name="Vertical_Grip_0">
+	<state id="LOD1">
+		<mesh_ref ref="Vertical_Grip_0_LOD1"/>
+	</state>
+	<state id="idle">
+		<mesh_ref ref="Vertical_Grip_0"/>
+	</state>
+	<mesh_description id="Vertical_Grip_0">
+		<lod idx="0" distance="0">
+			<mesh file="Meshes/Vertical_Grip_0_Vertical_Grip_0.m.hgm"/>
+			<material file="Materials/Vertical_Grip_0_Vertical_Grip_0.mtl"/>
+			<bsphere value="0.019,0.000,-5.027,6.341"/>
+			<box min="-2.623,-1.774,-10.742" max="2.661,1.774,0.688"/>
+			<src file="C:/Users/kosta/AppData/Roaming/Jagged Alliance 3/ModAssets/FBX/Foregrip1.fbx"/>
+		</lod>
+		<attach name="Hand_l_grip" spot_pos="1.054,0.000,-4.779" spot_rot="-0.000000,1.000000,-0.000000,151.1955" spot_scale="103"/>
+	</mesh_description>
+	<mesh_description id="Vertical_Grip_0_LOD1">
+		<lod idx="0" distance="0">
+			<mesh file="Meshes/Vertical_Grip_0_Vertical_Grip_0_LOD1.m.hgm"/>
+			<material file="Materials/Vertical_Grip_0_Vertical_Grip_0_LOD1.mtl"/>
+			<bsphere value="0.019,0.000,-5.027,6.341"/>
+			<box min="-2.623,-1.774,-10.742" max="2.661,1.774,0.688"/>
+			<src file="C:/Users/kosta/AppData/Roaming/Jagged Alliance 3/ModAssets/FBX/Foregrip1.fbx"/>
+		</lod>
+		<attach name="Hand_l_grip" spot_pos="1.054,0.000,-4.779" spot_rot="0.000000,1.000000,0.000000,151.1955" spot_scale="103"/>
+	</mesh_description>
+</entity>

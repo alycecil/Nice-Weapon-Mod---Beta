@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity path="" name="AR15_PMag_20">
+	<state id="LOD1">
+		<mesh_ref ref="AR15_PMag_20_LOD1"/>
+	</state>
+	<state id="idle">
+		<mesh_ref ref="AR15_PMag_20"/>
+	</state>
+	<mesh_description id="AR15_PMag_20">
+		<lod idx="0" distance="0">
+			<mesh file="Meshes/AR15_PMag_20_AR15_PMag_20.m.hgm"/>
+			<material file="Materials/AR15_PMag_20_AR15_PMag_20.mtl"/>
+			<bsphere value="1.227,0.058,-0.164,8.282"/>
+			<box min="-2.860,-1.253,-7.595" max="5.314,1.369,7.266"/>
+			<src file="C:/Users/kosta/AppData/Roaming/Jagged Alliance 3/ModAssets/FBX/PMagAr.fbx"/>
+		</lod>
+	</mesh_description>
+	<mesh_description id="AR15_PMag_20_LOD1">
+		<lod idx="0" distance="0">
+			<mesh file="Meshes/AR15_PMag_20_AR15_PMag_20_LOD1.m.hgm"/>
+			<material file="Materials/AR15_PMag_20_AR15_PMag_20_LOD1.mtl"/>
+			<bsphere value="1.227,0.058,-0.164,8.282"/>
+			<box min="-2.860,-1.253,-7.595" max="5.314,1.369,7.266"/>
+			<src file="C:/Users/kosta/AppData/Roaming/Jagged Alliance 3/ModAssets/FBX/PMagAr.fbx"/>
+		</lod>
+	</mesh_description>
+</entity>

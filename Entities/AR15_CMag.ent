@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity path="" name="AR15_CMag">
+	<state id="LOD1">
+		<mesh_ref ref="AR15_CMag_LOD1"/>
+	</state>
+	<state id="idle">
+		<mesh_ref ref="AR15_CMag"/>
+	</state>
+	<mesh_description id="AR15_CMag">
+		<lod idx="0" distance="0">
+			<mesh file="Meshes/AR15_CMag_AR15_CMag.m.hgm"/>
+			<material file="Materials/AR15_CMag_AR15_CMag.mtl"/>
+			<bsphere value="1.126,-0.003,1.309,13.044"/>
+			<box min="-3.407,-12.485,-4.410" max="5.660,12.479,7.028"/>
+			<src file="C:/Users/kosta/AppData/Roaming/Jagged Alliance 3/ModAssets/FBX/CMagAr.fbx"/>
+		</lod>
+	</mesh_description>
+	<mesh_description id="AR15_CMag_LOD1">
+		<lod idx="0" distance="0">
+			<mesh file="Meshes/AR15_CMag_AR15_CMag_LOD1.m.hgm"/>
+			<material file="Materials/AR15_CMag_AR15_CMag_LOD1.mtl"/>
+			<bsphere value="13.304,-0.003,24.950,13.044"/>
+			<box min="8.771,-12.485,19.231" max="17.838,12.479,30.669"/>
+			<src file="C:/Users/kosta/AppData/Roaming/Jagged Alliance 3/ModAssets/FBX/CMagAr.fbx"/>
+		</lod>
+	</mesh_description>
+</entity>

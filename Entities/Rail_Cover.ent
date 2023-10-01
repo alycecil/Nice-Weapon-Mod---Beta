@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity path="" name="Rail_Cover">
+	<state id="LOD1">
+		<mesh_ref ref="Rail_Cover_LOD1"/>
+	</state>
+	<state id="idle">
+		<mesh_ref ref="Rail_Cover"/>
+	</state>
+	<mesh_description id="Rail_Cover">
+		<lod idx="0" distance="0">
+			<mesh file="Meshes/Rail_Cover_Rail_Cover.m.hgm"/>
+			<material file="Materials/Rail_Cover_Rail_Cover.mtl"/>
+			<bsphere value="-10.024,0.065,2.844,8.993"/>
+			<box min="-18.337,-3.473,0.831" max="-1.710,3.603,4.857"/>
+			<src file="C:/Users/kosta/AppData/Roaming/Jagged Alliance 3/ModAssets/FBX/Rail_Cover.fbx"/>
+		</lod>
+	</mesh_description>
+	<mesh_description id="Rail_Cover_LOD1">
+		<lod idx="0" distance="0">
+			<mesh file="Meshes/Rail_Cover_Rail_Cover_LOD1.m.hgm"/>
+			<material file="Materials/Rail_Cover_Rail_Cover_LOD1.mtl"/>
+			<bsphere value="-10.024,0.065,2.844,8.993"/>
+			<box min="-18.337,-3.473,0.831" max="-1.710,3.603,4.857"/>
+			<src file="C:/Users/kosta/AppData/Roaming/Jagged Alliance 3/ModAssets/FBX/Rail_Cover.fbx"/>
+		</lod>
+	</mesh_description>
+</entity>

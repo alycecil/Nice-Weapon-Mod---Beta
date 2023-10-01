@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity path="" name="Vertical_Grip">
+	<state id="LOD1">
+		<mesh_ref ref="Vertical_Grip_LOD1"/>
+	</state>
+	<state id="idle">
+		<mesh_ref ref="Vertical_Grip"/>
+	</state>
+	<mesh_description id="Vertical_Grip">
+		<lod idx="0" distance="0">
+			<mesh file="Meshes/Vertical_Grip_Vertical_Grip.m.hgm"/>
+			<material file="Materials/Vertical_Grip_Vertical_Grip.mtl"/>
+			<bsphere value="-9.767,0.000,-5.655,6.914"/>
+			<box min="-12.535,-1.859,-11.942" max="-6.999,1.859,0.631"/>
+			<src file="C:/Users/kosta/AppData/Roaming/Jagged Alliance 3/ModAssets/FBX/Angled_Foregrip1.fbx"/>
+		</lod>
+	</mesh_description>
+	<mesh_description id="Vertical_Grip_LOD1">
+		<lod idx="0" distance="0">
+			<mesh file="Meshes/Vertical_Grip_Vertical_Grip_LOD1.m.hgm"/>
+			<material file="Materials/Vertical_Grip_Vertical_Grip_LOD1.mtl"/>
+			<bsphere value="-9.767,0.000,-5.655,6.914"/>
+			<box min="-12.535,-1.859,-11.942" max="-6.999,1.859,0.631"/>
+			<src file="C:/Users/kosta/AppData/Roaming/Jagged Alliance 3/ModAssets/FBX/Angled_Foregrip1.fbx"/>
+		</lod>
+	</mesh_description>
+</entity>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity path="" name="Tactical_Grip_G18">
+	<state id="LOD1">
+		<mesh_ref ref="Tactical_Grip_G18_LOD1"/>
+	</state>
+	<state id="idle">
+		<mesh_ref ref="Tactical_Grip_G18"/>
+	</state>
+	<mesh_description id="Tactical_Grip_G18">
+		<lod idx="0" distance="0">
+			<mesh file="Meshes/Tactical_Grip_G18_Tactical_Grip_G18.m.hgm"/>
+			<material file="Materials/Tactical_Grip_G18_Tactical_Grip_G18.mtl"/>
+			<bsphere value="0.707,0.001,3.239,4.331"/>
+			<box min="-1.222,-1.373,-0.643" max="2.636,1.376,7.121"/>
+			<src file="C:/Users/kosta/AppData/Roaming/Jagged Alliance 3/ModAssets/FBX/Tac_Grip_G18.fbx"/>
+		</lod>
+		<attach name="Hand_l_grip" spot_pos="2.511,-0.006,5.677" spot_rot="0.000000,1.000000,0.000000,45.0000" spot_scale="75"/>
+	</mesh_description>
+	<mesh_description id="Tactical_Grip_G18_LOD1">
+		<lod idx="0" distance="0">
+			<mesh file="Meshes/Tactical_Grip_G18_Tactical_Grip_G18_LOD1.m.hgm"/>
+			<material file="Materials/Tactical_Grip_G18_Tactical_Grip_G18_LOD1.mtl"/>
+			<bsphere value="0.707,0.001,3.239,4.331"/>
+			<box min="-1.222,-1.373,-0.643" max="2.636,1.376,7.121"/>
+			<src file="C:/Users/kosta/AppData/Roaming/Jagged Alliance 3/ModAssets/FBX/Tac_Grip_G18.fbx"/>
+		</lod>
+		<attach name="Hand_l_grip" spot_pos="2.498,0.000,5.655" spot_rot="0.000000,1.000000,0.000000,45.0000" spot_scale="75"/>
+	</mesh_description>
+</entity>

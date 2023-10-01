@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity path="" name="Combo_Scope">
+	<state id="LOD1">
+		<mesh_ref ref="Combo_Scope_LOD1"/>
+	</state>
+	<state id="idle">
+		<mesh_ref ref="Combo_Scope"/>
+	</state>
+	<mesh_description id="Combo_Scope">
+		<lod idx="0" distance="0">
+			<mesh file="Meshes/Combo_Scope_Combo_Scope.m.hgm"/>
+			<material file="Materials/Combo_Scope_Combo_Scope.mtl"/>
+			<bsphere value="-0.793,-0.131,2.715,8.170"/>
+			<box min="-8.671,-2.537,-0.452" max="7.085,2.276,5.882"/>
+			<src file="C:/Users/kosta/AppData/Roaming/Jagged Alliance 3/ModAssets/FBX/Combo_Scope_G33+Holo8.fbx"/>
+		</lod>
+	</mesh_description>
+	<mesh_description id="Combo_Scope_LOD1">
+		<lod idx="0" distance="0">
+			<mesh file="Meshes/Combo_Scope_Combo_Scope_LOD1.m.hgm"/>
+			<material file="Materials/Combo_Scope_Combo_Scope_LOD1.mtl"/>
+			<bsphere value="-0.793,-0.131,2.715,8.170"/>
+			<box min="-8.671,-2.537,-0.452" max="7.085,2.276,5.882"/>
+			<src file="C:/Users/kosta/AppData/Roaming/Jagged Alliance 3/ModAssets/FBX/Combo_Scope_G33+Holo8.fbx"/>
+		</lod>
+	</mesh_description>
+</entity>

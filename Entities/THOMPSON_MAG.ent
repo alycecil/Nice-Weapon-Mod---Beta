@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity path="" name="THOMPSON_MAG">
+	<state id="LOD1">
+		<mesh_ref ref="THOMPSON_MAG_LOD1"/>
+	</state>
+	<state id="idle">
+		<mesh_ref ref="THOMPSON_MAG"/>
+	</state>
+	<mesh_description id="THOMPSON_MAG">
+		<lod idx="0" distance="0">
+			<mesh file="Meshes/THOMPSON_MAG_THOMPSON_MAG.m.hgm"/>
+			<material file="Materials/THOMPSON_MAG_THOMPSON_MAG.mtl"/>
+			<bsphere value="0.758,-0.005,0.835,7.113"/>
+			<box min="-2.488,-1.302,-5.519" max="4.003,1.292,7.189"/>
+			<src file="C:/Users/kosta/AppData/Roaming/Jagged Alliance 3/ModAssets/FBX/AR_Mag3.fbx"/>
+		</lod>
+	</mesh_description>
+	<mesh_description id="THOMPSON_MAG_LOD1">
+		<lod idx="0" distance="0">
+			<mesh file="Meshes/THOMPSON_MAG_THOMPSON_MAG_LOD1.m.hgm"/>
+			<material file="Materials/THOMPSON_MAG_THOMPSON_MAG_LOD1.mtl"/>
+			<bsphere value="0.758,-0.005,0.835,7.113"/>
+			<box min="-2.488,-1.302,-5.519" max="4.003,1.292,7.189"/>
+			<src file="C:/Users/kosta/AppData/Roaming/Jagged Alliance 3/ModAssets/FBX/AR_Mag3.fbx"/>
+		</lod>
+	</mesh_description>
+</entity>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity path="" name="AR15_Grip">
+	<state id="LOD1">
+		<mesh_ref ref="AR15_Grip_LOD1"/>
+	</state>
+	<state id="idle">
+		<mesh_ref ref="AR15_Grip"/>
+	</state>
+	<mesh_description id="AR15_Grip">
+		<lod idx="0" distance="0">
+			<mesh file="Meshes/AR15_Grip_AR15_Grip.m.hgm"/>
+			<material file="Materials/AR15_Grip_AR15_Grip.mtl"/>
+			<bsphere value="9.893,0.000,30.948,11.776"/>
+			<box min="-0.790,-1.953,26.212" max="20.576,1.953,35.684"/>
+			<src file="C:/Users/kosta/AppData/Roaming/Jagged Alliance 3/ModAssets/FBX/CMagAr.fbx"/>
+		</lod>
+	</mesh_description>
+	<mesh_description id="AR15_Grip_LOD1">
+		<lod idx="0" distance="0">
+			<mesh file="Meshes/AR15_Grip_AR15_Grip_LOD1.m.hgm"/>
+			<material file="Materials/AR15_Grip_AR15_Grip_LOD1.mtl"/>
+			<bsphere value="9.893,0.000,30.948,11.776"/>
+			<box min="-0.790,-1.953,26.212" max="20.576,1.953,35.684"/>
+			<src file="C:/Users/kosta/AppData/Roaming/Jagged Alliance 3/ModAssets/FBX/CMagAr.fbx"/>
+		</lod>
+	</mesh_description>
+</entity>
